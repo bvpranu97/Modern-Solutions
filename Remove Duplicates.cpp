@@ -1,3 +1,9 @@
+/*
+BY: Coding Cat
+Domain : Illegal Coding
+Link: https://practice.geeksforgeeks.org/problems/remove-duplicates/0
+*/
+
 #include <iostream>
 using namespace std;
 

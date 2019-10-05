@@ -1,3 +1,9 @@
+/*
+BY: Coding Cat
+Domain : Illegal Coding
+Link: https://www.hackerrank.com/challenges/reduced-string/problem
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,7 +1,7 @@
 
 /*
 BY: Coding Cat
-Domain : Illegal Coding bolongs to stl illegal
+Domain : Illegal Coding belongs to stl illegal
 Link: https://practice.geeksforgeeks.org/problems/find-the-element-that-appears-once-in-sorted-array/0
 Name: Find the element that appears once in sorted array  
 */

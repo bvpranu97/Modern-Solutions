@@ -1,4 +1,8 @@
-	   
+/*
+BY: Coding Cat
+Domain : Illegal Coding belongs to stl illegal
+Link: https://practice.geeksforgeeks.org/problems/remove-duplicates/0
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

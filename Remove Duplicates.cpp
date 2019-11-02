@@ -1,30 +1,28 @@
-/*
-BY: Coding Cat
-Domain : Illegal Coding
-Link: https://practice.geeksforgeeks.org/problems/remove-duplicates/0
-*/
+	   
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int testcases;
+	int testcases;
 	cin>>testcases;
-	cin>>ws;
-	for( int t=0 ; t<testcases ; t++ )
+	for( int test=0 ;test<testcases ; test++ )
 	{
-	  string ip;
-	  getline(cin,ip);
-	  cin>>ws;
-	  string op;
-	  size_t found;
-	  for( int i=0 ; i<ip.size() ; i++  )
-	  {
-	      found = op.find(ip[i]); 
-	      if (found == string::npos) 
-	        op+=ip[i];
-	  }
-	 cout<<op<<endl;
+	 // unordered_map<char,int> m;
+      string s;
+      cin>>ws;
+      getline(cin,s);
+      vector<int> str(256,0);
+      for( int i=0 ; i<s.size() ; i++  )
+      {
+          if( str[s[i]] == 0 )
+          {
+              cout<<s[i];
+              str[s[i]]=1;
+          }
+      }
+        
+      cout<<endl;
 	}
 	return 0;
 }
